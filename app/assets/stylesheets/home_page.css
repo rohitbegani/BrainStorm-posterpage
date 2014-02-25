@@ -50,5 +50,6 @@ img.cg {
 }
 .comingsoon{
   z-index: 4;
-  color: #333;
+  color: #fff;
+  margin-top: 35%;
 }
