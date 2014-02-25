@@ -3,11 +3,25 @@
 	<head>
 		<meta name="description" content="BrainStorm 2014 - Online treasure hunt event!">
     	<%= stylesheet_link_tag "home_page" %>
+    	<%= stylesheet_link_tag "bootstrap.min" %>
+    	<%= stylesheet_link_tag "bootstrap-theme.min" %>
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1460982320795970";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<img src="bsback.png" class="bg">
 		<img src="brainstormlogo.png" class="cg">
+
+	<div class="col-md-offset-5 like">
+		<div class="fb-like" data-href="https://www.facebook.com/bstorm2014" data-width="20" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+	</div>
 
 </body>
 </HTML>
