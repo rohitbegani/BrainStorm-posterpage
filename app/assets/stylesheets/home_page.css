@@ -48,3 +48,7 @@ img.cg {
   z-index: 2;
   margin-top: 30%;
 }
+.comingsoon{
+  z-index: 4;
+  color: #333;
+}
